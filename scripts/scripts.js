@@ -4,6 +4,7 @@ function initializeApp() {
   displayMeme();
 }
 
+// a comment to demonstrate a change to the file
 async function displayMeme() {
   try {
     const response = await fetch("https://api.imgflip.com/get_memes");
